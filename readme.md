@@ -1,4 +1,4 @@
-` `1. 系統簡介
+1. 系統簡介
 
 1\.1規格目的
 
@@ -8,9 +8,9 @@
 
 本文件描述了本系統所需之功能，透過建立軟體架構圖及流程圖的方式，讓團隊成員對系統全貌有一致性的認知，但不會涉及到系統內部技術層面，僅以此進行雙方的溝通。本文件預期讀者有：系統設計人員、專案管理人員、系統測試人員、未來系統使用者。 
 
-`         `1.3 參考文件
+1\.3 參考文件
 
-`	   `<https://github.com/NVIDIA-AI-IOT/jetbot>
+<https://github.com/NVIDIA-AI-IOT/jetbot>
 
 <https://blog.cavedu.com/tag/jetbot/>
 
@@ -49,7 +49,7 @@
 
 2\.3 系統架構
 
-![https://lh4.googleusercontent.com/2slObrnu9Z0nm_3HDn7iDRaZBMMRnO-b0Atm0PC7uIKE80fYzhpHNRgRtQ7FbSnUVmc4Nfczg0VN5ZmDLXxWqkK8uvWmQHrqzgtn_ETSUmIXs5aNBqy4P1vNXcaE_ZgORhUb8xUP93XRGp-XIi1zdG-Cij3jvdJ2wAPhsyh19NGoxBXsvKa-kdjNcFZzf4MxOpFuXA](Aspose.Words.47e94274-4414-4dcb-afe0-2bd4c90be825.001.png)
+![](Aspose.Words.47e94274-4414-4dcb-afe0-2bd4c90be825.001.png)
 
 硬體: 
 
@@ -127,16 +127,16 @@
 
 硬體架構:
 
-![https://lh3.googleusercontent.com/qtYiW2PPba177lJf0fnNrlkPDKf7qqmHC3LV4aRoefFWxf1ygPxWfi-dRujtKCzwZnWWftAIhK95GgFq6L8RLdIEgNeiyROdkilMFMXd61UEXiQk4VcFUye5g1KhfNfbRc5F2kvNOOIXyMqwvlkq510is_6eslY0WoLYO-7qarS95o67XJCzz-8tr6wk](Aspose.Words.47e94274-4414-4dcb-afe0-2bd4c90be825.002.png)
+![](https://github.com/Jie0117/B08_Graduation_Project/blob/main/img/Aspose.Words.47e94274-4414-4dcb-afe0-2bd4c90be825.002.png)
 
 
 
 
 軟體架構:
 
-![https://lh4.googleusercontent.com/CwLes5mafRCGdpRuXWkO_3LxgVxwCTh8--gMlbTuacf2SqBrUghQ1EPHQeFT2A0pVCzm3U0vfHxZaYSmqn6yPt9gN8CDH2kRt-b1_5pSMHXOCz45abokHJUP0zvHkDN8M33swheBB5yxlmkMrDTdQWxVItZoICCzMPeIBEMM_-pzvNarbRcpCn4C09g-](Aspose.Words.47e94274-4414-4dcb-afe0-2bd4c90be825.003.png)
+![](https://github.com/Jie0117/B08_Graduation_Project/blob/main/img/Aspose.Words.47e94274-4414-4dcb-afe0-2bd4c90be825.003.png)
 
-![](Aspose.Words.47e94274-4414-4dcb-afe0-2bd4c90be825.004.png)
+![](https://github.com/Jie0117/B08_Graduation_Project/blob/main/img/Aspose.Words.47e94274-4414-4dcb-afe0-2bd4c90be825.004.png)
 
 3\.2 軟硬體組件設計說明
 
@@ -196,7 +196,7 @@ AR資訊顯示： 
 
 一開始程式開始執行的時候相機會自動拍攝相片，接下來由AI判斷目前的狀況，第一種是等待障礙物移動，表示目前正前方有障礙物，需要等待障礙物移開之後才能跳出迴圈，否則在回圈內持續等待。第二種狀況是前方道路淨空，需要沿著固定路線行走，程式會根據圖片跟目前位置計算偏移量，計算完畢之後將數值賦予給馬達，如果馬達差值大於20%會輸出左右轉訊號。第三種情況是遇到路口，需要使用者給予指示告知如何移動，當使用者給予指示後才跳出迴圈，否則一直在迴圈等待，最後檢查是否收到終止訊號，否則輸入相片持續執行迴圈。
 
-![https://lh3.googleusercontent.com/9Jcq8hzdA4jox5VfxQcSB47z-TjFB3yxVKZn2L-Dqj-cgk_k2zBLwpDstZuRJsCxuDG_Sj4_wJ29fJrouDKPJRJoOwLxLeJSTQKFMiWUeM9cQOpIoGU7xa_AIS4k7kfsmsc1UO7sMd4tMB3ENWoi53tevNdRrx6D0j8wfWPZT0gj2QZo0oKeLxlMvfzx](Aspose.Words.47e94274-4414-4dcb-afe0-2bd4c90be825.005.png)
+![](https://github.com/Jie0117/B08_Graduation_Project/blob/main/img/Aspose.Words.47e94274-4414-4dcb-afe0-2bd4c90be825.005.png)
 
 
 
@@ -214,16 +214,5 @@ AR資訊顯示： 
 |2|2022\.06.25|2\.1|實作方式|進度更新|
 |3|2022\.9.27|3\.1|全部|新增內容|
 
-`	`附錄 訊息清單
-
-` 		 `檔案與程式對照表
-
-
-|網址|功能|
-| :-: | :-: |
-|<https://github.com/CHEN-HSING-CHIEH/B08project/blob/main/PROJECT/final.ipynb>|<p>行動輔具的控制程式</p><p></p>|
-|<https://github.com/CHEN-HSING-CHIEH/B08project/blob/main/PROJECT/TcpClient.cs>|行動輔具與AR端的網路訊息傳輸程式|
-|<https://github.com/CHEN-HSING-CHIEH/B08project/blob/main/PROJECT/PlayPause.cs>|<p>AR廣告影片顯示程式</p><p></p>|
-|<https://github.com/CHEN-HSING-CHIEH/B08project/blob/main/PROJECT/showdetail.cs>|AR商家資訊顯示程式|
 
 
